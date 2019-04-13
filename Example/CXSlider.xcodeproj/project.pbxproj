@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2693ED35223D0EF7C589F7AD /* Pods_CXSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C21D112818CC22A7F77B1F /* Pods_CXSlider_Tests.framework */; };
+		5A2FA4AE22620C200028068C /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA4AD22620C200028068C /* UIView+Additions.m */; };
+		5A2FA4B122620C320028068C /* CXScoreSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2FA4AF22620C320028068C /* CXScoreSlider.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A2FA4AC22620C1F0028068C /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		5A2FA4AD22620C200028068C /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		5A2FA4AF22620C320028068C /* CXScoreSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXScoreSlider.m; sourceTree = "<group>"; };
+		5A2FA4B022620C320028068C /* CXScoreSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXScoreSlider.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CXSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +65,13 @@
 		60C21D112818CC22A7F77B1F /* Pods_CXSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75BD3923FB736412003A942B /* Pods-CXSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlider_Example/Pods-CXSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7D9BC9D656A05DD76F0F955E /* CXSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXSlider.podspec; path = ../CXSlider.podspec; sourceTree = "<group>"; };
+		7D9BC9D656A05DD76F0F955E /* CXSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXSlider.podspec; path = ../CXSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E2A8A80365FFA8416890D77 /* Pods-CXSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlider_Tests/Pods-CXSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		864683E7B08F530E4ED1369C /* Pods-CXSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlider_Tests/Pods-CXSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8B2E08939A924089C381056 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8B2E08939A924089C381056 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B047C919A0B8109EA5EDCD67 /* Pods_CXSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F746BAD1836A7063CF918352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F746BAD1836A7063CF918352 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FCA79A0D1D853D4238C367DC /* Pods-CXSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXSlider_Example/Pods-CXSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,10 @@
 		6003F593195388D20070C39A /* Example for CXSlider */ = {
 			isa = PBXGroup;
 			children = (
+				5A2FA4B022620C320028068C /* CXScoreSlider.h */,
+				5A2FA4AF22620C320028068C /* CXScoreSlider.m */,
+				5A2FA4AC22620C1F0028068C /* UIView+Additions.h */,
+				5A2FA4AD22620C200028068C /* UIView+Additions.m */,
 				6003F59C195388D20070C39A /* CXAppDelegate.h */,
 				6003F59D195388D20070C39A /* CXAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -355,8 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2FA4AE22620C200028068C /* UIView+Additions.m in Sources */,
 				6003F59E195388D20070C39A /* CXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CXViewController.m in Sources */,
+				5A2FA4B122620C320028068C /* CXScoreSlider.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
