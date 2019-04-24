@@ -16,13 +16,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 CXSlider is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod 'CXSlider'
-```
 
 ## Author
 
-caixiang305621856, yanyan305621856@sina.com
+caixiang, yanyan305621856@sina.com
 
 ## License
 
