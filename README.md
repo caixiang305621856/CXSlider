@@ -7,8 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+[![效果图](http://code.cocoachina.com/uploads/attachments/20190413/138107/18a54762c03624f897c5d7cf933e8b73.gif)]
 ## Requirements
 
 ## Installation
